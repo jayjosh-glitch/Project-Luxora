@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXURA</title>
+    <link rel="stylesheet" href="/css/sign.css">
+</head>
+
+<body>
+    <DIV class="bar">
+        <h1>LUXORA</h1>
+        <div class="nav ">
+            <a href="index.html" class="border">HOME</a>
+            <a href="products.html" class="border">PRODUCTS</a>
+            <a href="cart.html" class="border">YOUR CART</a>
+            <a href="login.html" class="border">LOG IN</a>
+            <a href="signup.html" class="border">SIGN UP</a>
+        </div>
+    </DIV>
+    <hr/>
+    <div class="main-container">
+        <!-- <div class="side"></div> -->
+        <div class="reg">
+            <!-- <div class="pfp"></div> -->
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br/>
+                <hr>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+
+                <label for="contactnumber">Mobile No: </label>
+                <input type="number" id="contactnumber" name="contactnumber" required minlength="10" maxlength="10">
+                <br><br>
+            </form>
+            <button id="submit">Sign Up</button>
+        </div>
+    </div>
+    <script type="module"  src="/js/signup.js" ></script>
+</body>
+
+</html>
