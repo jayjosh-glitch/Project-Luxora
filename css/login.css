@@ -6,7 +6,7 @@
 
 body{
     
-    background-image: url('/images/DALL·E\ 2025-03-12\ 20.03.32\ -\ A\ modern\ and\ stylish\ logo\ for\ \'LuxoraStore\'\ with\ an\ elegant\,\ minimalist\ design.\ The\ logo\ features\ a\ sleek\,\ fashionable\ font\ with\ a\ small\ icon\ represen.jpg');
+    background-image: url('/Project-Luxora/images/DALL·E\ 2025-03-12\ 20.03.32\ -\ A\ modern\ and\ stylish\ logo\ for\ \'LuxoraStore\'\ with\ an\ elegant\,\ minimalist\ design.\ The\ logo\ features\ a\ sleek\,\ fashionable\ font\ with\ a\ small\ icon\ represen.jpg');
     background-size: cover;
     
 }
@@ -133,7 +133,7 @@ hr {
 .bgimage {
     height: 550px;
     width: 50%;  /* Adjust width so it fits */
-    background-image: url('/images/l4.png');
+    background-image: url('/Project-Luxora/images/l4.png');
     background-size: contain;
     background-repeat: no-repeat;
     /* background-color: rgba(255, 255, 255, 0.5); White color with 50% transparency */

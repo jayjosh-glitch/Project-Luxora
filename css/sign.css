@@ -45,7 +45,7 @@ h1{
     display: flex;
     justify-content: space-between; /* Ensures both divs take available space */
     align-items: center; /* Centers them vertically */
-    background-image: url('/images/s10.jpg');
+    background-image: url('/Project-Luxora/images/s10.jpg');
     background-size: cover;
     
 }

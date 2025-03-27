@@ -14,7 +14,7 @@
 
 .bar{
     height: 450px;
-    background-image: url('/images/hero5.jpg');
+    background-image: url('/Project-Luxora/images/hero5.jpg');
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +98,7 @@ h1{
   .m1{
     height: 100%;
     width: 50%;
-    background-image: url('/images/men4.jpg');
+    background-image: url('/Project-Luxora/images/men4.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     /* margin-left: 700px; */
@@ -141,7 +141,7 @@ h1{
   .m2{
     height: 100%;
     width: 50%;
-    background-image: url('/images/men6.jpg');
+    background-image: url('/Project-Luxora/images/men6.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     /* margin-left: 700px; */
@@ -183,7 +183,7 @@ h1{
   .w1{
     height: 100%;
     width: 50%;
-    background-image: url('/images/wo1.webp');
+    background-image: url('/Project-Luxora/images/wo1.webp');
     background-size: contain;
     background-repeat: no-repeat;
     /* margin-left: 700px; */
@@ -226,7 +226,7 @@ h1{
   .w2{
     height: 100%;
     width: 50%;
-    background-image: url('/images/wo4.jpg');
+    background-image: url('/Project-Luxora/images/wo4.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     /* margin-left: 700px; */
