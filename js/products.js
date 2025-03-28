@@ -1,183 +1,50 @@
 
+//   console.log(menClothing);
+let menClothing;
+let womensClothing;
 
-const womensClothing = [
-    {
-        "id": 1,
-        "name": "Floral Summer Dress",
-        "gender":"female",
-        "description": "A lightweight floral dress perfect for summer outings.",
-        "price": 5000,
-        "size": ["S", "M", "L", "XL"],
-        "color": ["Red", "Blue", "Yellow"],
-        "category": "Dress",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/floral-dress.jpg"
-    },
-    {
-        "id": 2,
-        "name": "Denim Jacket",
-        "gender":"female",
-        "description": "A stylish and classic denim jacket for casual looks.",
-        "price": 2000,
-        "size": ["S", "M", "L", "XL"],
-        "color": ["Blue", "Black"],
-        "category": "Jacket",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/denim-jacket.jpg"
-    },
-    {
-        "id": 3,
-        "name": "White Blouse",
-        "gender":"female",
-        "description": "A versatile white blouse for both work and casual occasions.",
-        "price": 1000,
-        "size": ["S", "M", "L"],
-        "color": ["White", "Ivory"],
-        "category": "Top",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/white-blouse.jpg"
-    },
-    {
-        "id": 4,
-        "name": "Black Leather Skirt",
-        "gender":"female",
-        "description": "A chic black leather skirt for a night out.",
-        "price": 3000,
-        "size": ["S", "M", "L"],
-        "color": ["Black"],
-        "category": "Skirt",
-        "inStock": false,
-        "imageUrl": "https://example.com/images/leather-skirt.jpg"
-    },
-    {
-        "id": 5,
-        "name": "Striped T-Shirt",
-        "gender":"female",
-        "description": "A comfy striped T-shirt for a casual look.",
-        "price": 7000,
-        "size": ["S", "M", "L", "XL"],
-        "color": ["Black & White", "Navy & White"],
-        "category": "Top",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/striped-tshirt.jpg"
-    },
-    {
-        "id": 6,
-        "name": "Knit Sweater",
-        "gender":"female",
-        "description": "A warm and cozy knit sweater for fall and winter.",
-        "price": 12000,
-        "size": ["S", "M", "L"],
-        "color": ["Gray", "Beige", "Black"],
-        "category": "Sweater",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/knit-sweater.jpg"
-    },
-    {
-        "id": 7,
-        "name": "High-Waisted Jeans",
-        "gender":"female",
-        "description": "Comfortable high-waisted jeans with a modern fit.",
-        "price": 15000,
-        "size": ["S", "M", "L", "XL"],
-        "color": ["Light Blue", "Dark Blue"],
-        "category": "Jeans",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/high-waisted-jeans.jpg"
-    },
-    {
-        "id": 8,
-        "name": "High-Waisted Jeans",
-        "gender":"female",
-        "description": "Comfortable high-waisted jeans with a modern fit.",
-        "price": 4000,
-        "size": ["S", "M", "L", "XL"],
-        "color": ["Light Blue", "Dark Blue"],
-        "category": "Jeans",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/high-waisted-jeans.jpg"
-    },
-    {
-        "id": 9,
-        "name": "High-Waisted Jeans",
-        "gender":"female",
-        "description": "Comfortable high-waisted jeans with a modern fit.",
-        "price": 8000,
-        "size": ["S", "M", "L", "XL"],
-        "color": ["Light Blue", "Dark Blue"],
-        "category": "Jeans",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/high-waisted-jeans.jpg"
-    },
-    {
-        "id": 10,
-        "name": "High-Waisted Jeans",
-        "gender":"female",
-        "description": "Comfortable high-waisted jeans with a modern fit.",
-        "price": 13000,
-        "size": ["S", "M", "L", "XL"],
-        "color": ["Light Blue", "Dark Blue"],
-        "category": "Jeans",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/high-waisted-jeans.jpg"
-    },
-    {
-        "id": 11,
-        "name": "High-Waisted Jeans",
-        "gender":"male",
-        "description": "Comfortable high-waisted jeans with a modern fit.",
-        "price": 2500,
-        "size": ["S", "M", "L", "XL"],
-        "color": ["Light Blue", "Dark Blue"],
-        "category": "Jeans",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/high-waisted-jeans.jpg"
-    },
-    {
-        "id": 12,
-        "name": "High-Waisted Jeans",
-        "gender":"male",
-        "description": "Comfortable high-waisted jeans with a modern fit.",
-        "price": 5500,
-        "size": [ "M", "L", "XL"],
-        "color": ["Light Blue", "Dark Blue"],
-        "category": "Jeans",
-        "inStock": true,
-        "imageUrl": "https://example.com/images/high-waisted-jeans.jpg"
-    }
-];
+async function getprod(){
+    var response = await fetch("../Project-Luxora/prods/men.json");
+    var response1 = await fetch("../Project-Luxora/prods/women.json");
+    let mdata = await response.json();
+    let wdata = await response1.json();
+    console.log(mdata);
+    console.log(wdata);
+    menClothing = mdata;
+    womensClothing = wdata;
+} 
 
 
-
-document.addEventListener('DOMContentLoaded', () =>{
-    let wdisplay = document.getElementById('Women');
-    let mdisplay = document.getElementById('men');
+document.addEventListener('DOMContentLoaded', () => {
+    wdisplay = document.getElementById('Women');
+    mdisplay = document.getElementById('men');
     mdisplay.style.display = "none";
     wdisplay.style.display = "block";
+    getprod();
 })
 
 const applybtn = document.getElementById('apply-btn');
 
-function filters(){
+function filters() {
 
     const gender = document.getElementById('gender').value;
     const category = document.getElementById('category').value;
-    const size =  document.getElementById('size').value;
+    const size = document.getElementById('size').value;
     const price = document.getElementById('prange').value;
-    let wdisplay = document.getElementById('Women');
-    let mdisplay = document.getElementById('men');
-    console.log(gender,category,size,price);
-    
+    wdisplay = document.getElementById('Women');
+    mdisplay = document.getElementById('men');
+    console.log(gender, category, size, price);
+
     // gender filter
-    if(gender != ""){
-        let filterbygender =[];
-        if(gender === "male"){
-            filterbygender =  womensClothing.filter(product => product.gender == "male");
+    if (gender != "") {
+        filterbygender = [];
+        if (gender === "male") {
+            filterbygender = womensClothing.filter(product => product.gender == "male");
             wdisplay.style.display = "none";
             mdisplay.style.display = "block";
         }
-        if(gender === "female"){
-            filterbygender =  womensClothing.filter(product => product.gender =="female");
+        if (gender === "female") {
+            filterbygender = womensClothing.filter(product => product.gender == "female");
             mdisplay.style.display = "none";
             wdisplay.style.display = "block";
         }
@@ -185,60 +52,237 @@ function filters(){
     }
 
     // category filter
-    if(category != ""){
-        let filterbycategory = [] ;
-        
-        if(category === "Jeans"){
+    if (category != "") {
+        filterbycategory = [];
+
+        if (category === "Jeans") {
             filterbycategory = womensClothing.filter(product => product.category == "Jeans");
         }
-        if(category === "Sweater"){
+        if (category === "Sweater") {
             filterbycategory = womensClothing.filter(product => product.category == "Sweater");
         }
-        if(category === "Top"){
-            filterbycategory = womensClothing.filter(product => product.category =="Top");
+        if (category === "Top") {
+            filterbycategory = womensClothing.filter(product => product.category == "Top");
         }
         console.log(filterbycategory);
     }
-    
+
 
     // size filter
-    if(size != ""){
-        let filterbysize = [];
-        if(size === "XS"){
-            filterbysize= womensClothing.filter(product => product.size === "XS");
+    if (size != "") {
+        filterbysize = [];
+        if (size === "XS") {
+            filterbysize = womensClothing.filter(product => product.size === "XS");
         }
-        if(size === "S"){
-            filterbysize= womensClothing.filter(product => product.size === "S");
+        if (size === "S") {
+            filterbysize = womensClothing.filter(product => product.size === "S");
         }
-        if(size === "M"){
-            filterbysize= womensClothing.filter(product => product.size === "M");
+        if (size === "M") {
+            filterbysize = womensClothing.filter(product => product.size === "M");
         }
-        if(size === "L"){
-            filterbysize= womensClothing.filter(product => product.size === "L");
+        if (size === "L") {
+            filterbysize = womensClothing.filter(product => product.size === "L");
         }
-        if(size === "XL"){
-            filterbysize= womensClothing.filter(product => product.size === "XL");
+        if (size === "XL") {
+            filterbysize = womensClothing.filter(product => product.size === "XL");
         }
         console.log(filterbysize);
-        
+
     }
 
-         // Price filter
-        if(price != " "){
-        let filterbypricerange = [];
-        if(price === "1"){
+    // Price filter
+    if (price != " ") {
+        filterbypricerange = [];
+        if (price === "1") {
             filterbypricerange = womensClothing.filter(product => product.price <= 5000);
         }
-        if(price === "2"){
-            filterbypricerange = womensClothing.filter(product => product.price >5000 && product.price <=10000);
+        if (price === "2") {
+            filterbypricerange = womensClothing.filter(product => product.price > 5000 && product.price <= 10000);
         }
-        if(price === "3"){
+        if (price === "3") {
             filterbypricerange = womensClothing.filter(product => product.price > 10000);
         }
         console.log(filterbypricerange);
     }
-} 
+}
 
-applybtn.addEventListener('click', () =>{
+applybtn.addEventListener('click', () => {
     filters();
 });
+
+bw1 = document.getElementById('addtocart1');
+bw2 = document.getElementById('addtocart2');
+bw3 = document.getElementById('addtocart3');
+bw4 = document.getElementById('addtocart4');
+bw5 = document.getElementById('addtocart5');
+bw6 = document.getElementById('addtocart6');
+bw7 = document.getElementById('addtocart7');
+bw8 = document.getElementById('addtocart8');
+bw9 = document.getElementById('addtocart9');
+bw10 = document.getElementById('addtocart10');
+bw11 = document.getElementById('addtocart11');
+bw12 = document.getElementById('addtocart12');
+
+bm1 = document.getElementById('addtocart-a1');
+bm2 = document.getElementById('addtocart-a2');
+bm3 = document.getElementById('addtocart-a3');
+bm4 = document.getElementById('addtocart-a4');
+bm5 = document.getElementById('addtocart-a5');
+bm6 = document.getElementById('addtocart-a6');
+bm7 = document.getElementById('addtocart-a7');
+bm8 = document.getElementById('addtocart-a8');
+bm9 = document.getElementById('addtocart-a9');
+bm10 = document.getElementById('addtocart-a10');
+bm11 = document.getElementById('addtocart-a11');
+bm12 = document.getElementById('addtocart-a12');
+
+let cartitem= [];
+
+bw1.addEventListener('click', () => {
+    cartitem = womensClothing.forEach(function(product){if(product.id == 1){
+        console.log(product);
+        sessionStorage.setItem('cartitem', JSON.stringify(product));
+        bw1.innerText = "added";
+    }});
+})
+bw2.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 2);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw2.innerText = "added";
+})
+bw3.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 3);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw3.innerText = "added";
+})
+bw4.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 4);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw4.innerText = "added";
+})
+bw5.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 5);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw5.innerText = "added";
+})
+bw6.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 6);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw6.innerText = "added";
+})
+bw7.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 7);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw7.innerText = "added";
+})
+bw8.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 8);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw8.innerText = "added";
+})
+bw9.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 9);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw9.innerText = "added";
+})
+bw10.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 10);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw10.innerText = "added";
+})
+bw11.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 11);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw11.innerText = "added";
+})
+bw12.addEventListener('click', () => {
+    cartitem = womensClothing.filter(product => product.id == 12);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw12.innerText = "added";
+})
+
+
+bm1.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 1);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm1.innerText = "added";
+})
+bm2.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 2);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm2.innerText = "added";
+})
+bm3.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 3);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm3.innerText = "added";
+
+})
+bm4.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 4);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm4.innerText = "added";
+})
+bm5.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 5);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm5.innerText = "added";
+})
+bm6.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 6);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm6.innerText = "added";
+})
+bm7.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 7);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm7.innerText = "added";
+})
+bm8.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 8);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm8.innerText = "added";
+})
+bm9.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 9);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm9.innerText = "added";
+})
+bm10.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 10);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bw10.innerText = "added";
+})
+bm11.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 11);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm11.innerText = "added";
+})
+bm12.addEventListener('click', () => {
+    cartitem = menClothing.filter(product => product.id == 12);
+    console.log(cartitem);
+    sessionStorage.setItem('cartitem', cartitem);
+    bm12.innerText = "added";
+})
