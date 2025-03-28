@@ -160,7 +160,7 @@ h1{
     margin-left: 15px;
 }
 
-.carted{
+#carted1{
     height: 50px;
     width: 100%;
     margin-bottom: 10px;
@@ -169,7 +169,7 @@ h1{
     align-items: center;
 }
 
-#addtocart{
+#addtocart1{
     height: 30px;
     width: 30%;
     margin-top: 10px;
@@ -177,7 +177,7 @@ h1{
     border-radius: 10px;
 }
 
-.carted p{
+#carted1 p{
     font-size: 1.2rem;
     width: 50%;
     margin-top: 0;
@@ -208,11 +208,29 @@ h1{
     margin-left: 50px;
 }
 
-.box2 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted2{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart2{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted2 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 .box3{
     height: 400px;
@@ -238,11 +256,29 @@ h1{
     margin-left: 50px;
 }
 
-.box3 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted3{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart3{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted3 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 .box4{
     height: 400px;
@@ -268,11 +304,29 @@ h1{
     margin-left: 50px;
 }
 
-.box4 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted4{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart4{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted4 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 .box5{
     height: 400px;
@@ -298,11 +352,29 @@ h1{
     margin-left: 50px;
 }
 
-.box5 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted5{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart5{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted5 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 .box6{
@@ -329,11 +401,29 @@ h1{
     margin-left: 50px;
 }
 
-.box6 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted6{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart6{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted6 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 
@@ -361,11 +451,29 @@ h1{
     margin-left: 50px;
 }
 
-.box7 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted7{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart7{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted7 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 
@@ -393,11 +501,29 @@ h1{
     margin-left: 50px;
 }
 
-.box8 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted8{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart8{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted8 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 .box9{
@@ -424,11 +550,29 @@ h1{
     margin-left: 50px;
 }
 
-.box9 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted9{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart9{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted9 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 
@@ -456,11 +600,29 @@ h1{
     margin-left: 50px;
 }
 
-.box10 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted10{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart10{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted10 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 
@@ -488,11 +650,29 @@ h1{
     margin-left: 50px;
 }
 
-.box11 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted11{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart11{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted11 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 .box12{
@@ -519,11 +699,29 @@ h1{
     margin-left: 50px;
 }
 
-.box12 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted12{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart12{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted12 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 /* men */
@@ -580,12 +778,33 @@ h1{
     margin-left: 50px;
 }
 
-.box1 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
-    margin-top: 10px;
+#carted-a1{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+#addtocart-a1{
+    height: 30px;
+    width: 30%;
+    margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a1 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
+}
+
+
+
 .box2{
     height: 400px;
     width: 25%;
@@ -610,11 +829,29 @@ h1{
     margin-left: 50px;
 }
 
-.box2 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a2{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a2{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a2 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 .box3{
     height: 400px;
@@ -640,11 +877,29 @@ h1{
     margin-left: 50px;
 }
 
-.box3 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a3{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a3{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a3 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 .box4{
     height: 400px;
@@ -670,11 +925,29 @@ h1{
     margin-left: 50px;
 }
 
-.box4 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a4{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a4{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a4 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 .box5{
     height: 400px;
@@ -700,11 +973,29 @@ h1{
     margin-left: 50px;
 }
 
-.box5 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a5{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a5{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a5 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 .box6{
@@ -731,11 +1022,29 @@ h1{
     margin-left: 50px;
 }
 
-.box6 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a6{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a6{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a6 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 
@@ -763,11 +1072,29 @@ h1{
     margin-left: 50px;
 }
 
-.box7 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a7{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a7{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a7 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 
@@ -795,11 +1122,29 @@ h1{
     margin-left: 50px;
 }
 
-.box8 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a8{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a8{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a8 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 .box9{
@@ -826,11 +1171,29 @@ h1{
     margin-left: 50px;
 }
 
-.box9 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a9{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a9{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a9 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 
@@ -858,11 +1221,29 @@ h1{
     margin-left: 50px;
 }
 
-.box10 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a10{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a10{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a10 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 
@@ -890,11 +1271,29 @@ h1{
     margin-left: 50px;
 }
 
-.box11 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a11{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a11{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a11 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
 
 .box12{
@@ -921,9 +1320,27 @@ h1{
     margin-left: 50px;
 }
 
-.box12 p{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    margin-right: 100px;
+#carted-a12{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addtocart-a12{
+    height: 30px;
+    width: 30%;
     margin-top: 10px;
+    background-color: rgb(224, 224, 90);
+    border-radius: 10px;
+}
+
+#carted-a12 p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+   
 }
